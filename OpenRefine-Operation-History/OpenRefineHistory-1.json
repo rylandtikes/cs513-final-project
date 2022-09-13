@@ -1,0 +1,6730 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DBA Name",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DBA Name using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AKA Name",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AKA Name using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Facility Type",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Facility Type using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Risk",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Risk using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Address",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Address using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column City using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "State",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column State using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Inspection Date",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Inspection Date using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Inspection Type",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Inspection Type using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Results",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Results using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Violations",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Violations using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Location",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Location using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DBA Name",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DBA Name using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AKA Name",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AKA Name using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Facility Type",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Facility Type using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Risk",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Risk using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Address",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Address using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column City using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "State",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column State using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Inspection Type",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Inspection Type using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Results",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Results using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Violations",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Violations using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Location",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Location using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Inspection ID",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Inspection ID using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "License #",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column License # using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Zip",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Zip using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Latitude",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Latitude using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitude",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Longitude using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DBA Name",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "DBA Name_Clean",
+    "columnInsertIndex": 2,
+    "description": "Create column DBA Name_Clean at index 2 based on column DBA Name using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DBA Name_Clean",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column DBA Name_Clean using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "AKA Name",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "AKA Name_Clean",
+    "columnInsertIndex": 4,
+    "description": "Create column AKA Name_Clean at index 4 based on column AKA Name using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AKA Name_Clean",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column AKA Name_Clean using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Facility Type",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Facility Type_Clean",
+    "columnInsertIndex": 7,
+    "description": "Create column Facility Type_Clean at index 7 based on column Facility Type using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Facility Type_Clean",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Facility Type_Clean using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Address",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Address_Clean",
+    "columnInsertIndex": 10,
+    "description": "Create column Address_Clean at index 10 based on column Address using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Address_Clean",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Address_Clean using expression value.toUppercase()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "City",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "City_Clean",
+    "columnInsertIndex": 12,
+    "description": "Create column City_Clean at index 12 based on column City using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City_Clean",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column City_Clean using expression value.toUppercase()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "DBA Name_Clean",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "DBA Name_Cleancluster",
+    "columnInsertIndex": 3,
+    "description": "Create column DBA Name_Cleancluster at index 3 based on column DBA Name_Clean using expression grel:value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DBA Name_Cleancluster",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dunkin Donuts / Baskin Robbins",
+          "Dunkin Donuts Baskin Robbins",
+          "Dunkin Donuts/ Baskin Robbins",
+          "Dunkin Donuts & Baskin Robbins",
+          "Baskin Robbins/ Dunkin Donuts",
+          "Dunkin Donuts - Baskin Robbins"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dunkin Donuts / Baskin Robbins"
+      },
+      {
+        "from": [
+          "Wendy's Old Fashioned Hamburgers Of New York, Inc",
+          "Wendy's Old Fashioned Hamburgers Of New York Inc",
+          "Wendy's Old Fashioned Hamburgers Of New York Inc.",
+          "Wendy's Old Fashioned Hamburgers Of New York, Inc.",
+          "Wendy's Old Fashioned Hamburger's Of New York, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wendy's Old Fashioned Hamburgers Of New York, Inc"
+      },
+      {
+        "from": [
+          "Illinois Sportservice Inc",
+          "Illinois Sportservice Inc.",
+          "Illinois Sportservice, Inc.",
+          "Illinois Sportservice, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Illinois Sportservice Inc"
+      },
+      {
+        "from": [
+          "Ace Coffee Bar Inc.",
+          "Ace Coffee Bar, Inc.",
+          "Ace Coffee Bar, Inc",
+          "Ace Coffee Bar Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ace Coffee Bar Inc."
+      },
+      {
+        "from": [
+          "Sharks Fish & Chicken",
+          "Shark's Fish & Chicken",
+          "Sharks Fish &chicken",
+          "Shark's Fish Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sharks Fish & Chicken"
+      },
+      {
+        "from": [
+          "Pepe's Mexican Restaurant",
+          "Pepes Mexican Mexican Restaurant",
+          "Pepes Mexican Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pepe's Mexican Restaurant"
+      },
+      {
+        "from": [
+          "J & J Fish & Chicken",
+          "J J Fish & Chicken",
+          "J J Fish& Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "J & J Fish & Chicken"
+      },
+      {
+        "from": [
+          "Intelligentsia Coffee & Tea Inc.",
+          "Intelligentsia Coffee & Tea Inc",
+          "Intelligentsia Coffee & Tea, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Intelligentsia Coffee & Tea Inc."
+      },
+      {
+        "from": [
+          "Dunkin Donuts/baskin Robbins",
+          "Dunkin' Donuts/baskin Robbins",
+          "Dunkin Donuts-baskin Robbins"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dunkin Donuts/baskin Robbins"
+      },
+      {
+        "from": [
+          "Aramark Educational Services, Inc.",
+          "Aramark Educational Services, Inc",
+          "Aramark Educational Services Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Aramark Educational Services, Inc."
+      },
+      {
+        "from": [
+          "Harold's Chicken",
+          "Harolds Chicken",
+          "Harold's Chicken'"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Harold's Chicken"
+      },
+      {
+        "from": [
+          "7 - Eleven",
+          "7- Eleven",
+          "7 Eleven"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "7 - Eleven"
+      },
+      {
+        "from": [
+          "Beyond The Ivy Inc",
+          "Beyond The Ivy, Inc",
+          "Beyond The Ivy, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Beyond The Ivy Inc"
+      },
+      {
+        "from": [
+          "White Castle System, Inc.",
+          "White Castle System Inc",
+          "White Castle System, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "White Castle System, Inc."
+      },
+      {
+        "from": [
+          "Wendy's Properties, Llc",
+          "Wendy's Properties Llc",
+          "Wendy's Properties, Llc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wendy's Properties, Llc"
+      },
+      {
+        "from": [
+          "Host International Inc",
+          "Host International, Inc",
+          "Host International Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Host International Inc"
+      },
+      {
+        "from": [
+          "Bake For Me",
+          "Bake For Me!",
+          "Bake For Me !"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bake For Me"
+      },
+      {
+        "from": [
+          "Family Dollar, Inc.",
+          "Family Dollar, Inc",
+          "Family Dollar Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Family Dollar, Inc."
+      },
+      {
+        "from": [
+          "Dunkin Donuts / Baskin Robins",
+          "Dunkin Donuts/ Baskin Robins",
+          "Dunkin Donuts & Baskin Robins"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dunkin Donuts / Baskin Robins"
+      },
+      {
+        "from": [
+          "Sodexo America, Llc",
+          "Sodexo America, Llc.",
+          "Sodexo America Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sodexo America, Llc"
+      },
+      {
+        "from": [
+          "Harold's Chicken Shack",
+          "Harolds Chicken Shack"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Harold's Chicken Shack"
+      },
+      {
+        "from": [
+          "Flik International Corp",
+          "Flik International Corp."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Flik International Corp"
+      },
+      {
+        "from": [
+          "Dippin Dots At Navy Pier",
+          "Dippin' Dots At Navy Pier"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dippin Dots At Navy Pier"
+      },
+      {
+        "from": [
+          "Tony,s Chinese & American Restaurant",
+          "Tonys Chinese American Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tony,s Chinese & American Restaurant"
+      },
+      {
+        "from": [
+          "Gallery Food Express Inc.",
+          "Gallery Food Express, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gallery Food Express Inc."
+      },
+      {
+        "from": [
+          "Dany's Taco's",
+          "Dany's Tacos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dany's Taco's"
+      },
+      {
+        "from": [
+          "Kim And Scotts Crave Bar",
+          "Kim And Scott's Crave Bar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kim And Scotts Crave Bar"
+      },
+      {
+        "from": [
+          "San Miguel Bakery Inc.",
+          "San Miguel Bakery, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "San Miguel Bakery Inc."
+      },
+      {
+        "from": [
+          "Serrelli's Finer Foods",
+          "Serrellis Finer Foods"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Serrelli's Finer Foods"
+      },
+      {
+        "from": [
+          "Lady Gregory's",
+          "Lady Gregory,s"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lady Gregory's"
+      },
+      {
+        "from": [
+          "Beverly Bakery Inc",
+          "Beverly Bakery Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Beverly Bakery Inc"
+      },
+      {
+        "from": [
+          "Sushi Avenue, Inc",
+          "Sushi Avenue, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sushi Avenue, Inc"
+      },
+      {
+        "from": [
+          "Little Kiddies Inc",
+          "Little Kiddies Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Little Kiddies Inc"
+      },
+      {
+        "from": [
+          "Fresh Market Place",
+          "Fresh Market Place."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fresh Market Place"
+      },
+      {
+        "from": [
+          "Armand's Pizzeria",
+          "Armands Pizzeria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Armand's Pizzeria"
+      },
+      {
+        "from": [
+          "Popeye's Chicken & Biscuits",
+          "Popeyes (chicken & Biscuits)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Popeye's Chicken & Biscuits"
+      },
+      {
+        "from": [
+          "J J Peppers",
+          "J. J. Peppers"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "J J Peppers"
+      },
+      {
+        "from": [
+          "Oakdale Christian Academy & Church",
+          "Oakdale Christian Academy Church"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Oakdale Christian Academy & Church"
+      },
+      {
+        "from": [
+          "Starbucks Coffee",
+          "Starbuck's Coffee"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Starbucks Coffee"
+      },
+      {
+        "from": [
+          "Randee's Food Store",
+          "Randees Food Store"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Randee's Food Store"
+      },
+      {
+        "from": [
+          "Spoon Thai",
+          "Thai Spoon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Spoon Thai"
+      },
+      {
+        "from": [
+          "Dollar Tree Stores Inc",
+          "Dollar Tree Stores, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dollar Tree Stores Inc"
+      },
+      {
+        "from": [
+          "St Rest Country Kitchen",
+          "St. Rest Country Kitchen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "St Rest Country Kitchen"
+      },
+      {
+        "from": [
+          "Mc Donald's Restaurant",
+          "Mc Donalds Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mc Donald's Restaurant"
+      },
+      {
+        "from": [
+          "Lugano's Pizza",
+          "Luganos Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lugano's Pizza"
+      },
+      {
+        "from": [
+          "Bp",
+          "B.P."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bp"
+      },
+      {
+        "from": [
+          "My Corner Playroom , Inc",
+          "My Corner Playroom, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "My Corner Playroom , Inc"
+      },
+      {
+        "from": [
+          "Vinces Pizzeria & Taqueria",
+          "Vince's Pizzeria & Taqueria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vinces Pizzeria & Taqueria"
+      },
+      {
+        "from": [
+          "Banner West Academy",
+          "Banner Academy West"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Banner West Academy"
+      },
+      {
+        "from": [
+          "El Rodeo Inc",
+          "El Rodeo, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "El Rodeo Inc"
+      },
+      {
+        "from": [
+          "Abigail's Ice Cream",
+          "Abigails Ice Cream"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Abigail's Ice Cream"
+      },
+      {
+        "from": [
+          "Lincoln Park Pre-school",
+          "Lincoln Park Preschool"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lincoln Park Pre-school"
+      },
+      {
+        "from": [
+          "Raymond's Tacos",
+          "Raymonds Tacos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Raymond's Tacos"
+      },
+      {
+        "from": [
+          "Delicias Ice Cream",
+          "Delicia's Ice Cream"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Delicias Ice Cream"
+      },
+      {
+        "from": [
+          "Deli-time, L.L.C.",
+          "Delitime L.L.C."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Deli-time, L.L.C."
+      },
+      {
+        "from": [
+          "D'agostinos Pizza",
+          "D'agostino's Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "D'agostinos Pizza"
+      },
+      {
+        "from": [
+          "Mr Kite's Chocolate",
+          "Mr. Kite's Chocolate"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mr Kite's Chocolate"
+      },
+      {
+        "from": [
+          "Pop This! Llc",
+          "Pop This!, Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pop This! Llc"
+      },
+      {
+        "from": [
+          "Carniceria Gerardo's",
+          "Gerardos Carniceria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carniceria Gerardo's"
+      },
+      {
+        "from": [
+          "Papa Ray's Pizza & Wings",
+          "Papa Rays Pizza & Wings"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Papa Ray's Pizza & Wings"
+      },
+      {
+        "from": [
+          "Quizno's Sub",
+          "Quiznos Sub"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Quizno's Sub"
+      },
+      {
+        "from": [
+          "Phillys Original",
+          "Philly's Original"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phillys Original"
+      },
+      {
+        "from": [
+          "Community Learning Center Inc",
+          "Community Learning Center, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Community Learning Center Inc"
+      },
+      {
+        "from": [
+          "Bp Gas Station",
+          "B-p Gas Station"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bp Gas Station"
+      },
+      {
+        "from": [
+          "Seattle Sutton's",
+          "Seattle Suttons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Seattle Sutton's"
+      },
+      {
+        "from": [
+          "Walgreens # 05867",
+          "Walgreens #05867"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Walgreens # 05867"
+      },
+      {
+        "from": [
+          "Dunkin Donuts/ Baskin Robbins/ Togo's",
+          "Dunkin Donuts Baskin Robbins Togo's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dunkin Donuts/ Baskin Robbins/ Togo's"
+      },
+      {
+        "from": [
+          "Eden Food & Liquor",
+          "Eden Liquor & Food"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Eden Food & Liquor"
+      },
+      {
+        "from": [
+          "Gourmet Kitchens, Inc",
+          "Gourmet Kitchens, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gourmet Kitchens, Inc"
+      },
+      {
+        "from": [
+          "Bubs Gyros",
+          "Bub's Gyros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bubs Gyros"
+      },
+      {
+        "from": [
+          "Lindo Mexico",
+          "Mexico Lindo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lindo Mexico"
+      },
+      {
+        "from": [
+          "Jamba Juice Company",
+          "Jamba Juice Company Company"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jamba Juice Company"
+      },
+      {
+        "from": [
+          "Walgreens # 05192",
+          "Walgreens #05192"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Walgreens # 05192"
+      },
+      {
+        "from": [
+          "Aint She Sweet Cafe",
+          "Ain't She Sweet Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Aint She Sweet Cafe"
+      },
+      {
+        "from": [
+          "Mackelly's",
+          "Mackellys"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mackelly's"
+      },
+      {
+        "from": [
+          "Little Feathers Performing Arts Childcare Center",
+          "Little Feathers Performing Arts Childcare Center,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Little Feathers Performing Arts Childcare Center"
+      },
+      {
+        "from": [
+          "Sam's Chicken & Ribs",
+          "Sams Chicken & Ribs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sam's Chicken & Ribs"
+      },
+      {
+        "from": [
+          "Mr. Gyros",
+          "Mr Gyros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mr. Gyros"
+      },
+      {
+        "from": [
+          "The Learning Tree Pre-school",
+          "The Learning Tree Preschool"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The Learning Tree Pre-school"
+      },
+      {
+        "from": [
+          "Domino's",
+          "Dominos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Domino's"
+      },
+      {
+        "from": [
+          "Mcdonald's #490",
+          "Mcdonalds #490"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mcdonald's #490"
+      },
+      {
+        "from": [
+          "Starbucks Coffee #226",
+          "Starbuck's Coffee #226"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Starbucks Coffee #226"
+      },
+      {
+        "from": [
+          "El Mexicano Super Mercado Corp",
+          "El Mexicano Super Mercado Corp."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "El Mexicano Super Mercado Corp"
+      },
+      {
+        "from": [
+          "K Food & Liquor",
+          "K & K Food & Liquor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "K Food & Liquor"
+      },
+      {
+        "from": [
+          "Chicago Cupcake Llc",
+          "Chicago Cupcake Llc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chicago Cupcake Llc"
+      },
+      {
+        "from": [
+          "El Romance",
+          "El- Romance"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "El Romance"
+      },
+      {
+        "from": [
+          "Big Mikes Gyros",
+          "Mike's Big Gyros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Big Mikes Gyros"
+      },
+      {
+        "from": [
+          "Mr. Gees",
+          "Mr. Gee's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mr. Gees"
+      },
+      {
+        "from": [
+          "J & J Fish And Chicken",
+          "J And J Fish And Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "J & J Fish And Chicken"
+      },
+      {
+        "from": [
+          "Whiz Kids Nursery Center Inc.",
+          "Whiz Kids Nursery Center Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Whiz Kids Nursery Center Inc."
+      },
+      {
+        "from": [
+          "Niko's Gyros",
+          "Nikos' Gyros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Niko's Gyros"
+      },
+      {
+        "from": [
+          "Alexandra Foods Co.",
+          "Alexandra Foods Co"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alexandra Foods Co."
+      },
+      {
+        "from": [
+          "Leslie's Pizza Corp.",
+          "Leslie's Pizza Corp"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Leslie's Pizza Corp."
+      },
+      {
+        "from": [
+          "David's Maxwell St",
+          "David's Maxwell St."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "David's Maxwell St"
+      },
+      {
+        "from": [
+          "63rd St Burrito & Philly Steak",
+          "63rd St. Burrito & Philly Steak"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "63rd St Burrito & Philly Steak"
+      },
+      {
+        "from": [
+          "Celis Pizzeria Inc",
+          "Celis Pizzeria Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Celis Pizzeria Inc"
+      },
+      {
+        "from": [
+          "St. Thomas Of Canterbury Parish",
+          "St, Thomas Of Canterbury Parish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "St. Thomas Of Canterbury Parish"
+      },
+      {
+        "from": [
+          "Specialty's Cafe & Bakery",
+          "Specialty's Cafe Bakery"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Specialty's Cafe & Bakery"
+      },
+      {
+        "from": [
+          "Al's Beef",
+          "Als Beef"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Al's Beef"
+      },
+      {
+        "from": [
+          "Ings China King",
+          "Ing's China King"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ings China King"
+      },
+      {
+        "from": [
+          "Cholies Pizzeria Inc.",
+          "Cholie's Pizzeria Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cholies Pizzeria Inc."
+      },
+      {
+        "from": [
+          "Guaranteed Rate, Inc",
+          "Guaranteed Rate, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Guaranteed Rate, Inc"
+      },
+      {
+        "from": [
+          "Kolatek's Bakery Inc",
+          "Kolatek's Bakery Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kolatek's Bakery Inc"
+      },
+      {
+        "from": [
+          "Docks",
+          "Dock's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Docks"
+      },
+      {
+        "from": [
+          "Burger King #10797",
+          "Burger King # 10797"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Burger King #10797"
+      },
+      {
+        "from": [
+          "Mcdonalds #6337",
+          "Mcdonald's #6337"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mcdonalds #6337"
+      },
+      {
+        "from": [
+          "Gyood!",
+          "Gyood"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gyood!"
+      },
+      {
+        "from": [
+          "Bp Gas & Food Mart.",
+          "Bp Gas & Food Mart"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bp Gas & Food Mart."
+      },
+      {
+        "from": [
+          "University Food Systems Inc.",
+          "University Food Systems, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "University Food Systems Inc."
+      },
+      {
+        "from": [
+          "El Paisano Taco's",
+          "El Paisano Tacos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "El Paisano Taco's"
+      },
+      {
+        "from": [
+          "Harolds Chicken #55",
+          "Harold's Chicken #55"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Harolds Chicken #55"
+      },
+      {
+        "from": [
+          "Vaughans Pub",
+          "Vaughan's Pub"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vaughans Pub"
+      },
+      {
+        "from": [
+          "Lalos Mexican Restaurant",
+          "Lalo's Mexican Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lalos Mexican Restaurant"
+      },
+      {
+        "from": [
+          "Menard's",
+          "Menards"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Menard's"
+      },
+      {
+        "from": [
+          "Simple Sandwich Llc",
+          "Simple Sandwich Llc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Simple Sandwich Llc"
+      },
+      {
+        "from": [
+          "Colutas Pizza",
+          "Coluta's Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Colutas Pizza"
+      },
+      {
+        "from": [
+          "Taylor Prepared Foods, Inc.",
+          "Taylor Prepared Foods, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Taylor Prepared Foods, Inc."
+      },
+      {
+        "from": [
+          "Pizza Nova",
+          "Nova Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pizza Nova"
+      },
+      {
+        "from": [
+          "Little Caesar's Pizza",
+          "Little Caesars Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Little Caesar's Pizza"
+      },
+      {
+        "from": [
+          "Popeye's Chicken",
+          "Popeyes Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Popeye's Chicken"
+      },
+      {
+        "from": [
+          "Sammy's Touch",
+          "Sammys Touch"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sammy's Touch"
+      },
+      {
+        "from": [
+          "Sodexho America, Llc",
+          "Sodexho America Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sodexho America, Llc"
+      },
+      {
+        "from": [
+          "Original Rainbow Cone Inc",
+          "Original Rainbow Cone, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Original Rainbow Cone Inc"
+      },
+      {
+        "from": [
+          "Grand Palace Supermarket, Inc.",
+          "Grand Palace Supermarket, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grand Palace Supermarket, Inc."
+      },
+      {
+        "from": [
+          "Chicago Downtown Marriott",
+          "Chicago Marriott Downtown"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chicago Downtown Marriott"
+      },
+      {
+        "from": [
+          "Completely Nuts, Inc.",
+          "Completely Nuts, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Completely Nuts, Inc."
+      },
+      {
+        "from": [
+          "St Chrysostom's Church Day School",
+          "St. Chrysostom's Church Day School"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "St Chrysostom's Church Day School"
+      },
+      {
+        "from": [
+          "The Egg Store Inc",
+          "The Egg Store Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The Egg Store Inc"
+      },
+      {
+        "from": [
+          "Baba's Famous Steak & Lemonade",
+          "Babas Famous Steak & Lemonade"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Baba's Famous Steak & Lemonade"
+      },
+      {
+        "from": [
+          "Mr. Elote",
+          "Mr Elote"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mr. Elote"
+      },
+      {
+        "from": [
+          "Starbucks Coffee # 216",
+          "Starbucks Coffee #216"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Starbucks Coffee # 216"
+      },
+      {
+        "from": [
+          "Somethin' Sweet",
+          "Somethin Sweet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Somethin' Sweet"
+      },
+      {
+        "from": [
+          "Roosevelt & Western Shell",
+          "Roosevelt Western Shell"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Roosevelt & Western Shell"
+      },
+      {
+        "from": [
+          "Nabo's",
+          "Nabos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nabo's"
+      },
+      {
+        "from": [
+          "Sarpino's Pizzeria",
+          "Sarpinos Pizzeria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sarpino's Pizzeria"
+      },
+      {
+        "from": [
+          "Citgo Gas & Food",
+          "Citgo Food & Gas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Citgo Gas & Food"
+      },
+      {
+        "from": [
+          "My Boy Jack's",
+          "My Boy Jacks"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "My Boy Jack's"
+      },
+      {
+        "from": [
+          "Ranalli's",
+          "Ranallis"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ranalli's"
+      },
+      {
+        "from": [
+          "Lou Malnati's Pizzeria",
+          "Lou Malnatis Pizzeria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lou Malnati's Pizzeria"
+      },
+      {
+        "from": [
+          "Convenient Etc",
+          "Convenient Etc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Convenient Etc"
+      },
+      {
+        "from": [
+          "Owen + Alchemy",
+          "Owen +alchemy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Owen + Alchemy"
+      },
+      {
+        "from": [
+          "Papa John's Pizza",
+          "Papa Johns Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Papa John's Pizza"
+      },
+      {
+        "from": [
+          "Bockwinkel's",
+          "Bockwinkels"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bockwinkel's"
+      },
+      {
+        "from": [
+          "Mrs. Fields Cookies",
+          "Mrs Fields Cookies"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mrs. Fields Cookies"
+      },
+      {
+        "from": [
+          "Domino's Pizza",
+          "Dominos Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Domino's Pizza"
+      },
+      {
+        "from": [
+          "Paulines",
+          "Pauline's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Paulines"
+      },
+      {
+        "from": [
+          "Potbelly Sandwich Works Llc",
+          "Potbelly Sandwich Works, Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Potbelly Sandwich Works Llc"
+      },
+      {
+        "from": [
+          "Jan's Deli To Go Inc",
+          "Jan's Deli To Go, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jan's Deli To Go Inc"
+      },
+      {
+        "from": [
+          "N.J. Gates Events",
+          "Nj Gates Events"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "N.J. Gates Events"
+      },
+      {
+        "from": [
+          "John's Pizzeria",
+          "Johns Pizzeria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "John's Pizzeria"
+      },
+      {
+        "from": [
+          "Jets Pizza",
+          "Jet's Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jets Pizza"
+      },
+      {
+        "from": [
+          "Restaurant El Asador Inc",
+          "El Asador Restaurant Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Restaurant El Asador Inc"
+      },
+      {
+        "from": [
+          "Seattle Sutton's Healthy Eating",
+          "Seattle Suttons Healthy Eating"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Seattle Sutton's Healthy Eating"
+      },
+      {
+        "from": [
+          "Oodles Of Noodles",
+          "Oodles Of Of Noodles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Oodles Of Noodles"
+      },
+      {
+        "from": [
+          "Caffe Baci Inc",
+          "Caffe Baci Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Caffe Baci Inc"
+      },
+      {
+        "from": [
+          "C'est Si Bon Ltd.",
+          "C'est Si Bon Ltd"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "C'est Si Bon Ltd."
+      },
+      {
+        "from": [
+          "Walgreens # 09001",
+          "Walgreens #09001"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Walgreens # 09001"
+      },
+      {
+        "from": [
+          "Toppers Pizza",
+          "Topper's Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Toppers Pizza"
+      },
+      {
+        "from": [
+          "M & M & M Foods",
+          "M & M Foods"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "M & M & M Foods"
+      },
+      {
+        "from": [
+          "Balkan Restaurant Corp",
+          "Balkan Restaurant Corp."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Balkan Restaurant Corp"
+      },
+      {
+        "from": [
+          "Target #t-2373",
+          "Target # T-2373"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Target #t-2373"
+      },
+      {
+        "from": [
+          "Popeyes",
+          "Popeye's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Popeyes"
+      },
+      {
+        "from": [
+          "Italian Fiesta Pizzeria, Inc",
+          "Italian Fiesta Pizzeria Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Italian Fiesta Pizzeria, Inc"
+      },
+      {
+        "from": [
+          "Zaca's Of Midway",
+          "Zacas Of Midway"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Zaca's Of Midway"
+      },
+      {
+        "from": [
+          "Starbucks Coffee #11719",
+          "Starbucks Coffee # 11719"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Starbucks Coffee #11719"
+      },
+      {
+        "from": [
+          "Tono Tacos, Inc",
+          "Tono Tacos, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tono Tacos, Inc"
+      },
+      {
+        "from": [
+          "47th & California Shell",
+          "47th California Shell"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "47th & California Shell"
+      },
+      {
+        "from": [
+          "Cafe Corner",
+          "Corner Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cafe Corner"
+      },
+      {
+        "from": [
+          "Mcdonald's",
+          "Mcdonalds"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mcdonald's"
+      },
+      {
+        "from": [
+          "Burger King #",
+          "Burger King"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Burger King #"
+      },
+      {
+        "from": [
+          "Bridgeport Pasty, Llc",
+          "Bridgeport Pasty Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bridgeport Pasty, Llc"
+      },
+      {
+        "from": [
+          "Burger King #3386",
+          "Burger King # 3386"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Burger King #3386"
+      },
+      {
+        "from": [
+          "Mudder's",
+          "Mudders"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mudder's"
+      },
+      {
+        "from": [
+          "Sandra's Food Inc.",
+          "Sandra's Food Inc,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sandra's Food Inc."
+      },
+      {
+        "from": [
+          "Wagner's Bakery",
+          "Wagners Bakery"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wagner's Bakery"
+      },
+      {
+        "from": [
+          "Agee's Pizzeria & Grill",
+          "Agees Pizzeria & Grill"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Agee's Pizzeria & Grill"
+      },
+      {
+        "from": [
+          "Connie's Pizza",
+          "Connies Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Connie's Pizza"
+      },
+      {
+        "from": [
+          "La'ra's #!",
+          "La'ra's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "La'ra's #!"
+      },
+      {
+        "from": [
+          "Arbys",
+          "Arby's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Arbys"
+      },
+      {
+        "from": [
+          "Chicago O'hare Marriott Hotel",
+          "Chicago Marriott O'hare Hotel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chicago O'hare Marriott Hotel"
+      },
+      {
+        "from": [
+          "Beggars Pizza",
+          "Beggar's Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Beggars Pizza"
+      },
+      {
+        "from": [
+          "Frank's Franks",
+          "Frank's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Frank's Franks"
+      },
+      {
+        "from": [
+          "Cleo's",
+          "Cleos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cleo's"
+      },
+      {
+        "from": [
+          "Holiday Club",
+          "Club Holiday"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Holiday Club"
+      },
+      {
+        "from": [
+          "The Bean Caffe",
+          "The Bean Caffe'"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The Bean Caffe"
+      },
+      {
+        "from": [
+          "Little Caesar Enterprises, Inc.",
+          "Little Caesar Enterprises, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Little Caesar Enterprises, Inc."
+      },
+      {
+        "from": [
+          "La Favorita # 2",
+          "La Favorita 2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "La Favorita # 2"
+      },
+      {
+        "from": [
+          "Jabros Italian Ice Corner",
+          "Jabro's Italian Ice Corner"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jabros Italian Ice Corner"
+      },
+      {
+        "from": [
+          "Primo's Pizza",
+          "Primos Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Primo's Pizza"
+      },
+      {
+        "from": [
+          "Oberweis Dairy, Inc.",
+          "Oberweis Dairy, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Oberweis Dairy, Inc."
+      },
+      {
+        "from": [
+          "Burger King #16598",
+          "Burger King 16598"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Burger King #16598"
+      },
+      {
+        "from": [
+          "R & M Grocery Inc.",
+          "R & M Grocery, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "R & M Grocery Inc."
+      },
+      {
+        "from": [
+          "Borders Books, Movies, Music, Cafe",
+          "Borders Books Music, Movies Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Borders Books, Movies, Music, Cafe"
+      },
+      {
+        "from": [
+          "Milano's Pizza",
+          "Milanos Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Milano's Pizza"
+      },
+      {
+        "from": [
+          "Marlons Chicken & Fish",
+          "Marlon's Chicken & Fish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marlons Chicken & Fish"
+      },
+      {
+        "from": [
+          "Caribou Coffee Company Inc.",
+          "Caribou Coffee Company Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Caribou Coffee Company Inc."
+      },
+      {
+        "from": [
+          "Kanela Breakfast Club",
+          "Kanela 'breakfast Club'"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kanela Breakfast Club"
+      },
+      {
+        "from": [
+          "Bridget Mcneill's",
+          "Bridget Mcneills"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bridget Mcneill's"
+      },
+      {
+        "from": [
+          "Ez Food Mart",
+          "E-z Food Mart"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ez Food Mart"
+      },
+      {
+        "from": [
+          "Big & Littles Restaurant",
+          "Big & Little's Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Big & Littles Restaurant"
+      },
+      {
+        "from": [
+          "Burger King #215",
+          "Burger King # 215"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Burger King #215"
+      },
+      {
+        "from": [
+          "Nicks Pit Stop #2",
+          "Nick's Pit Stop #2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nicks Pit Stop #2"
+      },
+      {
+        "from": [
+          "Steve's 77 Ice Cream",
+          "Steves 77 Ice Cream"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Steve's 77 Ice Cream"
+      },
+      {
+        "from": [
+          "J. J. Gyros",
+          "J J Gyros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "J. J. Gyros"
+      },
+      {
+        "from": [
+          "Cheesies Pub & Grub",
+          "Cheesie's Pub & Grub"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cheesies Pub & Grub"
+      },
+      {
+        "from": [
+          "Carlitos Way Pizza",
+          "Carlito's Way Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carlitos Way Pizza"
+      },
+      {
+        "from": [
+          "Chuckie's",
+          "Chuckies"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chuckie's"
+      },
+      {
+        "from": [
+          "Mc Donald's",
+          "Mc Donalds"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mc Donald's"
+      },
+      {
+        "from": [
+          "Restaurant La Esperanza",
+          "La Esperanza Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Restaurant La Esperanza"
+      },
+      {
+        "from": [
+          "Munchies Food Mart, Inc",
+          "Munchies Food Mart, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Munchies Food Mart, Inc"
+      },
+      {
+        "from": [
+          "Burger King #14476",
+          "Burger King # 14476"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Burger King #14476"
+      },
+      {
+        "from": [
+          "Cafe' Descartes Company,'",
+          "Cafe Descartes Company"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cafe' Descartes Company,'"
+      },
+      {
+        "from": [
+          "In & Out Food Mart",
+          "In &out Food Mart"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "In & Out Food Mart"
+      },
+      {
+        "from": [
+          "Mcdonald's Restaurant",
+          "Mcdonalds Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mcdonald's Restaurant"
+      },
+      {
+        "from": [
+          "Wendy's Old Fashioned Hamburgers",
+          "Wendys Old Fashioned Hamburgers"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wendy's Old Fashioned Hamburgers"
+      },
+      {
+        "from": [
+          "Elenis Cafe",
+          "Eleni's Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Elenis Cafe"
+      },
+      {
+        "from": [
+          "Cake Bros Bakery",
+          "Cake Bros. Bakery"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cake Bros Bakery"
+      },
+      {
+        "from": [
+          "Express Food And Liquor",
+          "Food And Liquor Express"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Express Food And Liquor"
+      },
+      {
+        "from": [
+          "El Molino Taqueria",
+          "Taqueria El Molino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "El Molino Taqueria"
+      },
+      {
+        "from": [
+          "Brown's Chicken & Pasta",
+          "Browns Chicken & Pasta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brown's Chicken & Pasta"
+      },
+      {
+        "from": [
+          "Mariscos El Kora Inc",
+          "Mariscos El Kora, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mariscos El Kora Inc"
+      },
+      {
+        "from": [
+          "Quiznos",
+          "Quizno's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Quiznos"
+      },
+      {
+        "from": [
+          "Cafe Salsa",
+          "Salsa Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cafe Salsa"
+      },
+      {
+        "from": [
+          "Dollar Store +",
+          "Dollar Store"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dollar Store +"
+      },
+      {
+        "from": [
+          "Starbucks",
+          "Starbuck's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Starbucks"
+      },
+      {
+        "from": [
+          "L' Patron",
+          "L Patron"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "L' Patron"
+      },
+      {
+        "from": [
+          "La Azteca Mini Market Inc",
+          "La Azteca Mini Market Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "La Azteca Mini Market Inc"
+      },
+      {
+        "from": [
+          "Artists Snack Shop",
+          "Artist's Snack Shop"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Artists Snack Shop"
+      },
+      {
+        "from": [
+          "Starbucks Coffee # 13468",
+          "Starbucks Coffee #13468"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Starbucks Coffee # 13468"
+      },
+      {
+        "from": [
+          "Amish & Healthy Foods",
+          "Amish Healthy Foods"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Amish & Healthy Foods"
+      },
+      {
+        "from": [
+          "Los Pinos Supermercado",
+          "Supermercado Los Pinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Los Pinos Supermercado"
+      },
+      {
+        "from": [
+          "Triple A Services, Inc.",
+          "Triple A Services, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Triple A Services, Inc."
+      },
+      {
+        "from": [
+          "Ihop",
+          "I.H.O.P."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ihop"
+      },
+      {
+        "from": [
+          "Nicks Gyro's Ii",
+          "Nick's Gyros Ii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nicks Gyro's Ii"
+      },
+      {
+        "from": [
+          "Jimmy Johns",
+          "Jimmy John's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jimmy Johns"
+      },
+      {
+        "from": [
+          "Sanjustin's Kitchen Inc.",
+          "Sanjustins Kitchen, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sanjustin's Kitchen Inc."
+      },
+      {
+        "from": [
+          "A & B Tobacco Inc.",
+          "A & B Tobacco, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A & B Tobacco Inc."
+      },
+      {
+        "from": [
+          "Muskies",
+          "Muskie's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Muskies"
+      },
+      {
+        "from": [
+          "Nicky's Hot Dogs",
+          "Nickys Hot Dogs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nicky's Hot Dogs"
+      },
+      {
+        "from": [
+          "La Michoacana De Martha Llc.",
+          "La Michoacana De Martha Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "La Michoacana De Martha Llc."
+      },
+      {
+        "from": [
+          "Dunkin Donuts",
+          "Dunkin' Donuts"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dunkin Donuts"
+      },
+      {
+        "from": [
+          "Little Einsteins Daycare Inc.",
+          "Little Einsteins Daycare, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Little Einsteins Daycare Inc."
+      },
+      {
+        "from": [
+          "63rd Food Mart, Inc",
+          "63rd Food Mart, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "63rd Food Mart, Inc"
+      },
+      {
+        "from": [
+          "Giordano's Pizza",
+          "Giordanos Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Giordano's Pizza"
+      },
+      {
+        "from": [
+          "Compass Group Usa, Inc",
+          "Compass Group Usa, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Compass Group Usa, Inc"
+      },
+      {
+        "from": [
+          "Banh Mi & Co",
+          "Banh Mi & Co."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Banh Mi & Co"
+      },
+      {
+        "from": [
+          "Edible Arrangements",
+          "Edible - Arrangements"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Edible Arrangements"
+      },
+      {
+        "from": [
+          "Hilton Garden Inn - Chicago",
+          "Hilton Garden Inn Chicago"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hilton Garden Inn - Chicago"
+      },
+      {
+        "from": [
+          "Food Sense, Inc.",
+          "Food Sense Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Food Sense, Inc."
+      },
+      {
+        "from": [
+          "Elephant & Castle Pub & Restaurant",
+          "Elephant & Castle Pub Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Elephant & Castle Pub & Restaurant"
+      },
+      {
+        "from": [
+          "Walgreens # 1308",
+          "Walgreens #1308"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Walgreens # 1308"
+      },
+      {
+        "from": [
+          "Grocery Alvarez",
+          "Alvarez Grocery"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grocery Alvarez"
+      },
+      {
+        "from": [
+          "Cater-biz Chicago",
+          "Caterbiz Chicago"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cater-biz Chicago"
+      },
+      {
+        "from": [
+          "Hot Red Grill, Inc",
+          "Hot Red Grill, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hot Red Grill, Inc"
+      },
+      {
+        "from": [
+          "Brown's Chicken",
+          "Browns Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brown's Chicken"
+      },
+      {
+        "from": [
+          "Buy -n- Save",
+          "Buy 'n Save"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Buy -n- Save"
+      },
+      {
+        "from": [
+          "Erik's Deli",
+          "Eriks Deli"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Erik's Deli"
+      },
+      {
+        "from": [
+          "Dunkin Donuts/baskinrobbins",
+          "Dunkin Donuts/baskin-robbins"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dunkin Donuts/baskinrobbins"
+      },
+      {
+        "from": [
+          "Taqueria San Juanito Inc.",
+          "Taqueria San Juanito, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Taqueria San Juanito Inc."
+      },
+      {
+        "from": [
+          "Popeye's Fried Chicken",
+          "Popeyes Fried Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Popeye's Fried Chicken"
+      },
+      {
+        "from": [
+          "Pierogi Heaven, Inc.",
+          "Pierogi Heaven, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pierogi Heaven, Inc."
+      },
+      {
+        "from": [
+          "Cloverhill Pastry-vend",
+          "Cloverhill Pastry-vend,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cloverhill Pastry-vend"
+      },
+      {
+        "from": [
+          "Adams Food Mart",
+          "Adam's Food Mart"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Adams Food Mart"
+      },
+      {
+        "from": [
+          "Miko's",
+          "Mikos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Miko's"
+      },
+      {
+        "from": [
+          "Celestial Kitchens Inc.",
+          "Celestial Kitchens Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Celestial Kitchens Inc."
+      },
+      {
+        "from": [
+          "Breaker's Pantry",
+          "Breaker,s Pantry"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Breaker's Pantry"
+      },
+      {
+        "from": [
+          "H & M Food Mart",
+          "M H Food Mart"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "H & M Food Mart"
+      },
+      {
+        "from": [
+          "A Piece Of Cake Bakery, Inc.",
+          "A Piece Of Cake Bakery Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A Piece Of Cake Bakery, Inc."
+      },
+      {
+        "from": [
+          "Children's World, Inc.",
+          "Children's World Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Children's World, Inc."
+      },
+      {
+        "from": [
+          "Gelatinas Cris",
+          "Gelatina's Cris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gelatinas Cris"
+      },
+      {
+        "from": [
+          "Copperfields Market",
+          "Copperfield's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Copperfields Market"
+      },
+      {
+        "from": [
+          "Farmer's Market",
+          "Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Farmer's Market"
+      },
+      {
+        "from": [
+          "Burger King #6345",
+          "Burger King # 6345"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Burger King #6345"
+      },
+      {
+        "from": [
+          "Firehouse Captain Hooks",
+          "Firehouse / Captain Hooks"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Firehouse Captain Hooks"
+      },
+      {
+        "from": [
+          "Trump Commercial Chicago Llc",
+          "Trump Commercial Chicago, Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trump Commercial Chicago Llc"
+      },
+      {
+        "from": [
+          "Berco's Popcorn Llc",
+          "Berco's Popcorn Llc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berco's Popcorn Llc"
+      },
+      {
+        "from": [
+          "Rainforest Learning Center, Inc.",
+          "Rainforest Learning Center, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rainforest Learning Center, Inc."
+      },
+      {
+        "from": [
+          "Amigos Discount Store",
+          "Amigo's Discount Store"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Amigos Discount Store"
+      },
+      {
+        "from": [
+          "Paleteria La Michoacana 1,inc.",
+          "Paleteria Michoacana La #1,inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Paleteria La Michoacana 1,inc."
+      },
+      {
+        "from": [
+          "Chicago's Grill Fish, Chicken",
+          "Chicago's Grill Fish & Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chicago's Grill Fish, Chicken"
+      },
+      {
+        "from": [
+          "Cold Stone Creamery # 20658",
+          "Cold Stone Creamery #20658"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cold Stone Creamery # 20658"
+      },
+      {
+        "from": [
+          "Harolds Chicken #19",
+          "Harold's Chicken #19"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Harolds Chicken #19"
+      },
+      {
+        "from": [
+          "Artists Cafe",
+          "Artist's Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Artists Cafe"
+      },
+      {
+        "from": [
+          "Quiznos Subs",
+          "Quizno's Subs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Quiznos Subs"
+      },
+      {
+        "from": [
+          "Hudson Newseuro Cafe (#833)",
+          "Hudson News/euro Cafe (833)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hudson Newseuro Cafe (#833)"
+      },
+      {
+        "from": [
+          "Thunderbird Catering Co",
+          "Thunderbird Catering Co."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thunderbird Catering Co"
+      },
+      {
+        "from": [
+          "Little Caesars",
+          "Little Caesar's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Little Caesars"
+      },
+      {
+        "from": [
+          "R & B Fast Food, Inc",
+          "R & B Fast Food Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "R & B Fast Food, Inc"
+      },
+      {
+        "from": [
+          "South East Asia Center",
+          "South - East Asia Center"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "South East Asia Center"
+      },
+      {
+        "from": [
+          "Kreative Kidz Learning Academy Inc.",
+          "Kreative Kidz Learning Academy Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kreative Kidz Learning Academy Inc."
+      },
+      {
+        "from": [
+          "A & R Food Inc.",
+          "A & R Food Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A & R Food Inc."
+      },
+      {
+        "from": [
+          "Aramark Services Inc- Harris Bank",
+          "Aramark Services, Inc - Harris Bank"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Aramark Services Inc- Harris Bank"
+      },
+      {
+        "from": [
+          "Ignite Network, Inc.",
+          "Ignite Network Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ignite Network, Inc."
+      },
+      {
+        "from": [
+          "Black Dog Gelato, Llc",
+          "Black Dog Gelato Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Black Dog Gelato, Llc"
+      },
+      {
+        "from": [
+          "Schubas Tavern/harmony Grill",
+          "Schuba's Tavern/harmony Grill"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Schubas Tavern/harmony Grill"
+      },
+      {
+        "from": [
+          "Jersey Mike's",
+          "Jersey Mikes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jersey Mike's"
+      },
+      {
+        "from": [
+          "Christopher House",
+          "Christopher House-"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Christopher House"
+      },
+      {
+        "from": [
+          "Amanda's Grocery & Fast Food",
+          "Amanda's Fast Food & Grocery"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Amanda's Grocery & Fast Food"
+      },
+      {
+        "from": [
+          "King's Kiddie Kingdom",
+          "Kings Kiddie Kingdom"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "King's Kiddie Kingdom"
+      },
+      {
+        "from": [
+          "Epic Burger Inc",
+          "Epic Burger, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Epic Burger Inc"
+      },
+      {
+        "from": [
+          "La Haciendita Taqueria Inc",
+          "Taqueria La Haciendita, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "La Haciendita Taqueria Inc"
+      },
+      {
+        "from": [
+          "75th & State Shell",
+          "75th State Shell"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "75th & State Shell"
+      },
+      {
+        "from": [
+          "Harold's Chicken # 71",
+          "Harold's Chicken #71"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Harold's Chicken # 71"
+      },
+      {
+        "from": [
+          "Carnitas Don Rafa Inc",
+          "Carnitas Don Rafa, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carnitas Don Rafa Inc"
+      },
+      {
+        "from": [
+          "Michaels Fresh Market",
+          "Michael's Fresh Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Michaels Fresh Market"
+      },
+      {
+        "from": [
+          "Papa John's",
+          "Papa Johns"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Papa John's"
+      },
+      {
+        "from": [
+          "Dos Picantes Inc",
+          "Dos Picantes Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dos Picantes Inc"
+      },
+      {
+        "from": [
+          "Burger King # 12663",
+          "Burger King #12663"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Burger King # 12663"
+      },
+      {
+        "from": [
+          "Cholies Pizza",
+          "Cholie's Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cholies Pizza"
+      },
+      {
+        "from": [
+          "J & J Fish",
+          "J J Fish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "J & J Fish"
+      },
+      {
+        "from": [
+          "Nick's Pit Stop",
+          "Nicks Pit Stop"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nick's Pit Stop"
+      },
+      {
+        "from": [
+          "83rd & State Shell",
+          "83rd State Shell"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "83rd & State Shell"
+      },
+      {
+        "from": [
+          "Margies Candies",
+          "Margie's Candies"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Margies Candies"
+      },
+      {
+        "from": [
+          "Uncle Joe's",
+          "Uncle Joes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Uncle Joe's"
+      },
+      {
+        "from": [
+          "Mr. Submarine",
+          "Mr Submarine"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mr. Submarine"
+      },
+      {
+        "from": [
+          "City Provisions Catering And E",
+          "City Provisions Catering And E."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "City Provisions Catering And E"
+      },
+      {
+        "from": [
+          "Ada S Mckinley Highland Campus",
+          "Ada S. Mckinley Highland Campus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ada S Mckinley Highland Campus"
+      },
+      {
+        "from": [
+          "Real Good Juice Co.",
+          "Real Good Juice Co"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Real Good Juice Co."
+      },
+      {
+        "from": [
+          "Gerry's Fish & Chicken",
+          "Gerry;s Fish & Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gerry's Fish & Chicken"
+      },
+      {
+        "from": [
+          "Pizza Capri",
+          "Capri Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pizza Capri"
+      },
+      {
+        "from": [
+          "Bojonos",
+          "Bojono's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bojonos"
+      },
+      {
+        "from": [
+          "Dairy Queen Orange Julius",
+          "Dairy Queen/ Orange Julius"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dairy Queen Orange Julius"
+      },
+      {
+        "from": [
+          "Citgo Fuel & Mini Mart",
+          "Citgo Fuel& Mini Mart"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Citgo Fuel & Mini Mart"
+      },
+      {
+        "from": [
+          "Chicago Cheese Steak Co",
+          "Chicago Cheese Steak Co."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chicago Cheese Steak Co"
+      },
+      {
+        "from": [
+          "Valentina Food Trucks Llc",
+          "Valentina Food Trucks, Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Valentina Food Trucks Llc"
+      },
+      {
+        "from": [
+          "Rocky's Tacos",
+          "Rockys Tacos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rocky's Tacos"
+      },
+      {
+        "from": [
+          "The Original Maxwell St.",
+          "The Original Maxwell St"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The Original Maxwell St."
+      },
+      {
+        "from": [
+          "El Original Chavas Tacos, Inc.",
+          "El Original Chavas Tacos, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "El Original Chavas Tacos, Inc."
+      },
+      {
+        "from": [
+          "Tortorice's Pizza",
+          "Tortorices Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tortorice's Pizza"
+      },
+      {
+        "from": [
+          "Dollop Coffee Co",
+          "Dollop Coffee Co."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dollop Coffee Co"
+      },
+      {
+        "from": [
+          "Niko's Produce",
+          "Nikos Produce"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Niko's Produce"
+      },
+      {
+        "from": [
+          "See Thru Chinese Kitchen",
+          "Chinese See Thru Kitchen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "See Thru Chinese Kitchen"
+      },
+      {
+        "from": [
+          "Leonas",
+          "Leona's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Leonas"
+      },
+      {
+        "from": [
+          "Dukes",
+          "Duke's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dukes"
+      },
+      {
+        "from": [
+          "Starbucks Coffee # 2624",
+          "Starbucks Coffee #2624"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Starbucks Coffee # 2624"
+      },
+      {
+        "from": [
+          "Cuhl Foods, Llc",
+          "Cuhl Foods, Llc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cuhl Foods, Llc"
+      },
+      {
+        "from": [
+          "Rosati's Pizza",
+          "Rosatis Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rosati's Pizza"
+      },
+      {
+        "from": [
+          "Vida Y Salud",
+          "Salud Y Vida"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vida Y Salud"
+      },
+      {
+        "from": [
+          "Miska's",
+          "Miskas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Miska's"
+      },
+      {
+        "from": [
+          "Paleteria Oso Polar, Inc",
+          "Paleteria Oso Polar, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Paleteria Oso Polar, Inc"
+      },
+      {
+        "from": [
+          "Popeyes Famous Fried Chicken",
+          "Popeye's Famous Fried Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Popeyes Famous Fried Chicken"
+      },
+      {
+        "from": [
+          "Brown Bag Seafood Co",
+          "Brown Bag Seafood Co."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brown Bag Seafood Co"
+      },
+      {
+        "from": [
+          "Golden Fish & Chicken",
+          "Golden Fish + Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Golden Fish & Chicken"
+      },
+      {
+        "from": [
+          "Sushi",
+          "Sushi +"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sushi"
+      },
+      {
+        "from": [
+          "Children's Learning Place",
+          "Childrens Learning Place"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Children's Learning Place"
+      },
+      {
+        "from": [
+          "Jj Fish & Chicken",
+          "J&j Fish & Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jj Fish & Chicken"
+      },
+      {
+        "from": [
+          "Jimmy Johns Sandwich Shop",
+          "Jimmy John's Sandwich Shop"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jimmy Johns Sandwich Shop"
+      },
+      {
+        "from": [
+          "Sunny East Village Day Care & Preschool, Inc.",
+          "Sunny East Village Day Care & Preschool, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sunny East Village Day Care & Preschool, Inc."
+      }
+    ],
+    "description": "Mass edit cells in column DBA Name_Cleancluster"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "AKA Name_Clean",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "AKA Name_Cleancluster",
+    "columnInsertIndex": 6,
+    "description": "Create column AKA Name_Cleancluster at index 6 based on column AKA Name_Clean using expression grel:value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AKA Name_Cleancluster",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dunkin Donuts / Baskin Robbins",
+          "Dunkin Donuts Baskin Robbins",
+          "Dunkin Donuts/ Baskin Robbins",
+          "Dunkin Donuts / Baskin & Robbins",
+          "Dunkin Donuts & Baskin Robbins",
+          "Baskin Robbins/ Dunkin Donuts",
+          "Dunkin Donuts - Baskin Robbins"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dunkin Donuts / Baskin Robbins"
+      },
+      {
+        "from": [
+          "Sharks Fish & Chicken",
+          "Shark's Fish & Chicken",
+          "Sharks Fish &chicken",
+          "Shark's Fish Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sharks Fish & Chicken"
+      },
+      {
+        "from": [
+          "Dunkin Donuts/baskin Robbins",
+          "Dunkin Donuts-baskin Robbins",
+          "Dunkin' Donuts/baskin Robbins"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dunkin Donuts/baskin Robbins"
+      },
+      {
+        "from": [
+          "7 Eleven",
+          "7 - Eleven",
+          "7- Eleven"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "7 Eleven"
+      },
+      {
+        "from": [
+          "Harold's Chicken Shack",
+          "Harolds Chicken Shack"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Harold's Chicken Shack"
+      },
+      {
+        "from": [
+          "Kilwins Chocolates & Fudge",
+          "Kilwin's Chocolates & Fudge"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kilwins Chocolates & Fudge"
+      },
+      {
+        "from": [
+          "Tony's Chinese American Restaurant",
+          "Tonys Chinese American Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tony's Chinese American Restaurant"
+      },
+      {
+        "from": [
+          "Dany's Taco's",
+          "Dany's Tacos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dany's Taco's"
+      },
+      {
+        "from": [
+          "A Sweets Girl Llc",
+          "A. Sweets Girl Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A Sweets Girl Llc"
+      },
+      {
+        "from": [
+          "Kitchen Chicago, Llc",
+          "Kitchen Chicago Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kitchen Chicago, Llc"
+      },
+      {
+        "from": [
+          "San Miguel Bakery Inc.",
+          "San Miguel Bakery, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "San Miguel Bakery Inc."
+      },
+      {
+        "from": [
+          "Serrelli's Finer Foods",
+          "Serrellis Finer Foods"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Serrelli's Finer Foods"
+      },
+      {
+        "from": [
+          "Beverly Bakery Inc",
+          "Beverly Bakery Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Beverly Bakery Inc"
+      },
+      {
+        "from": [
+          "Popeye's Chicken & Biscuits",
+          "Popeyes (chicken & Biscuits)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Popeye's Chicken & Biscuits"
+      },
+      {
+        "from": [
+          "J J Peppers",
+          "J. J. Peppers"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "J J Peppers"
+      },
+      {
+        "from": [
+          "Franks 'n' Dawgs",
+          "Franks N' Dawgs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Franks 'n' Dawgs"
+      },
+      {
+        "from": [
+          "Oakdale Christian Academy & Church",
+          "Oakdale Christian Academy Church"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Oakdale Christian Academy & Church"
+      },
+      {
+        "from": [
+          "Starbucks Coffee",
+          "Starbuck's Coffee"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Starbucks Coffee"
+      },
+      {
+        "from": [
+          "Randee's Food Store",
+          "Randees Food Store"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Randee's Food Store"
+      },
+      {
+        "from": [
+          "Ace Coffee Bar Inc.",
+          "Ace Coffee Bar Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ace Coffee Bar Inc."
+      },
+      {
+        "from": [
+          "Dollar Tree Stores Inc",
+          "Dollar Tree Stores, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dollar Tree Stores Inc"
+      },
+      {
+        "from": [
+          "J.J. Food Mart",
+          "Jj Food Mart"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "J.J. Food Mart"
+      },
+      {
+        "from": [
+          "Lugano's Pizza",
+          "Luganos Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lugano's Pizza"
+      },
+      {
+        "from": [
+          "Bp",
+          "B.P."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bp"
+      },
+      {
+        "from": [
+          "Pepe's Mexican Restaurant",
+          "Pepes Mexican Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pepe's Mexican Restaurant"
+      },
+      {
+        "from": [
+          "Banner West Academy",
+          "Banner Academy West"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Banner West Academy"
+      },
+      {
+        "from": [
+          "El Rodeo Inc",
+          "El Rodeo, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "El Rodeo Inc"
+      },
+      {
+        "from": [
+          "Abigail's Ice Cream",
+          "Abigails Ice Cream"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Abigail's Ice Cream"
+      },
+      {
+        "from": [
+          "Lincoln Park Preschool",
+          "Lincoln Park Pre-school"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lincoln Park Preschool"
+      },
+      {
+        "from": [
+          "Mrs Fields",
+          "Mrs. Field's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mrs Fields"
+      },
+      {
+        "from": [
+          "Delicias Ice Cream",
+          "Delicia's Ice Cream"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Delicias Ice Cream"
+      },
+      {
+        "from": [
+          "D'agostinos Pizza",
+          "D'agostino's Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "D'agostinos Pizza"
+      },
+      {
+        "from": [
+          "Mr Kite's Chocolate",
+          "Mr. Kite's Chocolate"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mr Kite's Chocolate"
+      },
+      {
+        "from": [
+          "Pop This! Llc",
+          "Pop This!, Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pop This! Llc"
+      },
+      {
+        "from": [
+          "Carniceria Gerardo's",
+          "Gerardo's Carniceria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carniceria Gerardo's"
+      },
+      {
+        "from": [
+          "Papa Ray's Pizza & Wings",
+          "Papa Rays Pizza & Wings"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Papa Ray's Pizza & Wings"
+      },
+      {
+        "from": [
+          "Quizno's Sub",
+          "Quiznos Sub"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Quizno's Sub"
+      },
+      {
+        "from": [
+          "Community Learning Center Inc",
+          "Community Learning Center, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Community Learning Center Inc"
+      },
+      {
+        "from": [
+          "Seattle Sutton's",
+          "Seattle Suttons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Seattle Sutton's"
+      },
+      {
+        "from": [
+          "Walgreens # 05867",
+          "Walgreens #05867"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Walgreens # 05867"
+      },
+      {
+        "from": [
+          "Eden Food & Liquor",
+          "Eden Liquor & Food"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Eden Food & Liquor"
+      },
+      {
+        "from": [
+          "Lindo Mexico",
+          "Mexico Lindo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lindo Mexico"
+      },
+      {
+        "from": [
+          "Aint She Sweet Cafe",
+          "Ain't She Sweet Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Aint She Sweet Cafe"
+      },
+      {
+        "from": [
+          "Mackelly's",
+          "Mackellys"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mackelly's"
+      },
+      {
+        "from": [
+          "Little Feathers Performing Arts Childcare Center",
+          "Little Feathers Performing Arts Childcare Center,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Little Feathers Performing Arts Childcare Center"
+      },
+      {
+        "from": [
+          "Sam's Chicken & Ribs",
+          "Sams Chicken & Ribs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sam's Chicken & Ribs"
+      },
+      {
+        "from": [
+          "Mr. Gyros",
+          "Mr Gyros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mr. Gyros"
+      },
+      {
+        "from": [
+          "The Learning Tree Pre-school",
+          "The Learning Tree Preschool"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The Learning Tree Pre-school"
+      },
+      {
+        "from": [
+          "Domino's",
+          "Dominos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Domino's"
+      },
+      {
+        "from": [
+          "Mcdonald's #490",
+          "Mcdonalds #490"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mcdonald's #490"
+      },
+      {
+        "from": [
+          "El Mexicano Super Mercado Corp",
+          "El Mexicano Super Mercado Corp."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "El Mexicano Super Mercado Corp"
+      },
+      {
+        "from": [
+          "K Food & Liquor",
+          "K & K Food & Liquor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "K Food & Liquor"
+      },
+      {
+        "from": [
+          "El Romance",
+          "El- Romance"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "El Romance"
+      },
+      {
+        "from": [
+          "La Haciendita Taqueria",
+          "Taqueria La Haciendita"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "La Haciendita Taqueria"
+      },
+      {
+        "from": [
+          "Cugini Pizza & Eatery",
+          "Cugini Pizza @ Eatery"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cugini Pizza & Eatery"
+      },
+      {
+        "from": [
+          "Big Mikes Gyros",
+          "Mike's Big Gyros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Big Mikes Gyros"
+      },
+      {
+        "from": [
+          "Mr. Gees",
+          "Mr. Gee's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mr. Gees"
+      },
+      {
+        "from": [
+          "J And J Fish And Chicken",
+          "J & J Fish And Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "J And J Fish And Chicken"
+      },
+      {
+        "from": [
+          "K & D Fuel",
+          "K D Fuel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "K & D Fuel"
+      },
+      {
+        "from": [
+          "Whiz Kids Nursery Center Inc.",
+          "Whiz Kids Nursery Center Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Whiz Kids Nursery Center Inc."
+      },
+      {
+        "from": [
+          "Niko's Gyros",
+          "Nikos' Gyros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Niko's Gyros"
+      },
+      {
+        "from": [
+          "Alexandra Foods Co.",
+          "Alexandra Foods Co"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alexandra Foods Co."
+      },
+      {
+        "from": [
+          "Leslie's Pizza Corp.",
+          "Leslie's Pizza Corp"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Leslie's Pizza Corp."
+      },
+      {
+        "from": [
+          "David's Maxwell St",
+          "David's Maxwell St."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "David's Maxwell St"
+      },
+      {
+        "from": [
+          "63rd St Burrito & Philly Steak",
+          "63rd St. Burrito & Philly Steak"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "63rd St Burrito & Philly Steak"
+      },
+      {
+        "from": [
+          "Goose Island Brewing Co",
+          "Goose Island Brewing Co."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Goose Island Brewing Co"
+      },
+      {
+        "from": [
+          "J J Fish & Chicken",
+          "J & J Fish & Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "J J Fish & Chicken"
+      },
+      {
+        "from": [
+          "Specialty's Cafe & Bakery",
+          "Specialty's Cafe Bakery"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Specialty's Cafe & Bakery"
+      },
+      {
+        "from": [
+          "Afc Sushi @ Dominick's",
+          "Afc Sushi @ Dominicks"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Afc Sushi @ Dominick's"
+      },
+      {
+        "from": [
+          "Al's Beef",
+          "Als Beef"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Al's Beef"
+      },
+      {
+        "from": [
+          "Ings China King",
+          "Ing's China King"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ings China King"
+      },
+      {
+        "from": [
+          "Marisco's Los Veneros",
+          "Mariscos Los Veneros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marisco's Los Veneros"
+      },
+      {
+        "from": [
+          "Docks",
+          "Dock's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Docks"
+      },
+      {
+        "from": [
+          "Michael's Restaurant",
+          "Michaels Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Michael's Restaurant"
+      },
+      {
+        "from": [
+          "Gyood!",
+          "Gyood"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gyood!"
+      },
+      {
+        "from": [
+          "Bp Gas & Food Mart.",
+          "Bp Gas & Food Mart"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bp Gas & Food Mart."
+      },
+      {
+        "from": [
+          "University Food Systems Inc.",
+          "University Food Systems, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "University Food Systems Inc."
+      },
+      {
+        "from": [
+          "El Paisano Taco's",
+          "El Paisano Tacos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "El Paisano Taco's"
+      },
+      {
+        "from": [
+          "Harolds Chicken #55",
+          "Harold's Chicken #55"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Harolds Chicken #55"
+      },
+      {
+        "from": [
+          "Vaughans Pub",
+          "Vaughan's Pub"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vaughans Pub"
+      },
+      {
+        "from": [
+          "Intelligentsia Coffee & Tea, Inc.",
+          "Intelligentsia Coffee & Tea Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Intelligentsia Coffee & Tea, Inc."
+      },
+      {
+        "from": [
+          "Lalos Mexican Restaurant",
+          "Lalo's Mexican Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lalos Mexican Restaurant"
+      },
+      {
+        "from": [
+          "Colutas Pizza",
+          "Coluta's Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Colutas Pizza"
+      },
+      {
+        "from": [
+          "Pizza Nova",
+          "Nova Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pizza Nova"
+      },
+      {
+        "from": [
+          "Little Caesar's Pizza",
+          "Little Caesars Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Little Caesar's Pizza"
+      },
+      {
+        "from": [
+          "Popeyes Chicken",
+          "Popeye's Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Popeyes Chicken"
+      },
+      {
+        "from": [
+          "Sammy's Touch",
+          "Sammys Touch"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sammy's Touch"
+      },
+      {
+        "from": [
+          "Sodexho America Llc",
+          "Sodexho America, Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sodexho America Llc"
+      },
+      {
+        "from": [
+          "Grand Palace Supermarket, Inc.",
+          "Grand Palace Supermarket, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grand Palace Supermarket, Inc."
+      },
+      {
+        "from": [
+          "Completely Nuts, Inc.",
+          "Completely Nuts, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Completely Nuts, Inc."
+      },
+      {
+        "from": [
+          "Hashbrown's",
+          "Hashbrowns"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hashbrown's"
+      },
+      {
+        "from": [
+          "St Chrysostom's Church Day School",
+          "St. Chrysostom's Church Day School"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "St Chrysostom's Church Day School"
+      },
+      {
+        "from": [
+          "The Egg Store Inc",
+          "The Egg Store Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The Egg Store Inc"
+      },
+      {
+        "from": [
+          "Baba's Famous Steak & Lemonade",
+          "Babas Famous Steak & Lemonade"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Baba's Famous Steak & Lemonade"
+      },
+      {
+        "from": [
+          "Mr. Elote",
+          "Mr Elote"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mr. Elote"
+      },
+      {
+        "from": [
+          "Nabo's",
+          "Nabos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nabo's"
+      },
+      {
+        "from": [
+          "Sarpino's Pizzeria",
+          "Sarpinos Pizzeria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sarpino's Pizzeria"
+      },
+      {
+        "from": [
+          "Citgo Gas & Food",
+          "Citgo Food & Gas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Citgo Gas & Food"
+      },
+      {
+        "from": [
+          "My Boy Jack's",
+          "My Boy Jacks"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "My Boy Jack's"
+      },
+      {
+        "from": [
+          "America's Dog",
+          "Americas' Dog"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "America's Dog"
+      },
+      {
+        "from": [
+          "Cafeteria Marcelas",
+          "Cafeteria Marcela's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cafeteria Marcelas"
+      },
+      {
+        "from": [
+          "Alcocks",
+          "Alcock's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alcocks"
+      },
+      {
+        "from": [
+          "Ranalli's",
+          "Ranallis"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ranalli's"
+      },
+      {
+        "from": [
+          "Lou Malnati's Pizzeria",
+          "Lou Malnatis Pizzeria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lou Malnati's Pizzeria"
+      },
+      {
+        "from": [
+          "Cafe Internet",
+          "Internet Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cafe Internet"
+      },
+      {
+        "from": [
+          "Papa John's Pizza",
+          "Papa Johns Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Papa John's Pizza"
+      },
+      {
+        "from": [
+          "Bockwinkel's",
+          "Bockwinkels"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bockwinkel's"
+      },
+      {
+        "from": [
+          "Los Gamas Tortillas Y Restorante",
+          "Tortillas Y Restorante Los Gamas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Los Gamas Tortillas Y Restorante"
+      },
+      {
+        "from": [
+          "Ady's Restaurant",
+          "Adys Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ady's Restaurant"
+      },
+      {
+        "from": [
+          "Domino's Pizza",
+          "Dominos Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Domino's Pizza"
+      },
+      {
+        "from": [
+          "Quench, The Experience",
+          "Quench The Experience"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Quench, The Experience"
+      },
+      {
+        "from": [
+          "Potbelly Sandwich Works Llc",
+          "Potbelly Sandwich Works, Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Potbelly Sandwich Works Llc"
+      },
+      {
+        "from": [
+          "Jan's Deli To Go Inc",
+          "Jan's Deli To Go, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jan's Deli To Go Inc"
+      },
+      {
+        "from": [
+          "N.J. Gates Events",
+          "Nj Gates Events"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "N.J. Gates Events"
+      },
+      {
+        "from": [
+          "John's Pizzeria",
+          "Johns Pizzeria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "John's Pizzeria"
+      },
+      {
+        "from": [
+          "Jet's Pizza",
+          "Jets Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jet's Pizza"
+      },
+      {
+        "from": [
+          "Cvs Pharmacy",
+          "Cvs Pharmacy."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cvs Pharmacy"
+      },
+      {
+        "from": [
+          "Seattle Sutton's Healthy Eating",
+          "Seattle Suttons Healthy Eating"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Seattle Sutton's Healthy Eating"
+      },
+      {
+        "from": [
+          "Oodles Of Noodles",
+          "Oodles Of Of Noodles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Oodles Of Noodles"
+      },
+      {
+        "from": [
+          "Caffe Baci Inc",
+          "Caffe Baci Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Caffe Baci Inc"
+      },
+      {
+        "from": [
+          "Toppers Pizza",
+          "Topper's Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Toppers Pizza"
+      },
+      {
+        "from": [
+          "M & M & M Foods",
+          "M & M Foods"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "M & M & M Foods"
+      },
+      {
+        "from": [
+          "Popeyes",
+          "Popeye's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Popeyes"
+      },
+      {
+        "from": [
+          "Italian Fiesta Pizzeria, Inc",
+          "Italian Fiesta Pizzeria Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Italian Fiesta Pizzeria, Inc"
+      },
+      {
+        "from": [
+          "Zaca's Of Midway",
+          "Zacas Of Midway"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Zaca's Of Midway"
+      },
+      {
+        "from": [
+          "Einstein Bros. Bagels",
+          "Einstein Bros Bagels"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Einstein Bros. Bagels"
+      },
+      {
+        "from": [
+          "Tono Tacos, Inc",
+          "Tono Tacos, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tono Tacos, Inc"
+      },
+      {
+        "from": [
+          "47th & California Shell",
+          "47th California Shell"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "47th & California Shell"
+      },
+      {
+        "from": [
+          "Cafe Corner",
+          "Corner Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cafe Corner"
+      },
+      {
+        "from": [
+          "Mcdonald's",
+          "Mcdonalds"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mcdonald's"
+      },
+      {
+        "from": [
+          "Burger King",
+          "Burger King #"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Burger King"
+      },
+      {
+        "from": [
+          "Mudder's",
+          "Mudders"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mudder's"
+      },
+      {
+        "from": [
+          "Wagner's Bakery",
+          "Wagners Bakery"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wagner's Bakery"
+      },
+      {
+        "from": [
+          "North Ave Quick Stop",
+          "North Ave. Quick Stop"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "North Ave Quick Stop"
+      },
+      {
+        "from": [
+          "Connie's Pizza",
+          "Connies Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Connie's Pizza"
+      },
+      {
+        "from": [
+          "Arbys",
+          "Arby's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Arbys"
+      },
+      {
+        "from": [
+          "Beggar's Pizza",
+          "Beggars Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Beggar's Pizza"
+      },
+      {
+        "from": [
+          "Frank's Franks",
+          "Frank's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Frank's Franks"
+      },
+      {
+        "from": [
+          "Cleo's",
+          "Cleos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cleo's"
+      },
+      {
+        "from": [
+          "Holiday Club",
+          "Club Holiday"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Holiday Club"
+      },
+      {
+        "from": [
+          "The Bean Caffe",
+          "The Bean Caffe'"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The Bean Caffe"
+      },
+      {
+        "from": [
+          "Harold's Chicken",
+          "Harolds Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Harold's Chicken"
+      },
+      {
+        "from": [
+          "La Favorita # 2",
+          "La Favorita 2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "La Favorita # 2"
+      },
+      {
+        "from": [
+          "Afc Sushi @ Walgreen's",
+          "Afc Sushi @ Walgreens"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Afc Sushi @ Walgreen's"
+      },
+      {
+        "from": [
+          "Jabros Italian Ice Corner",
+          "Jabro's Italian Ice Corner"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jabros Italian Ice Corner"
+      },
+      {
+        "from": [
+          "Primo's Pizza",
+          "Primos Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Primo's Pizza"
+      },
+      {
+        "from": [
+          "Beyond The Ivy Inc",
+          "Beyond The Ivy, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Beyond The Ivy Inc"
+      },
+      {
+        "from": [
+          "Borders Books, Movies, Music, Cafe",
+          "Borders Books Music, Movies Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Borders Books, Movies, Music, Cafe"
+      },
+      {
+        "from": [
+          "Milano's Pizza",
+          "Milanos Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Milano's Pizza"
+      },
+      {
+        "from": [
+          "Marlons Chicken & Fish",
+          "Marlon's Chicken & Fish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marlons Chicken & Fish"
+      },
+      {
+        "from": [
+          "7-eleven",
+          "7_eleven"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "7-eleven"
+      },
+      {
+        "from": [
+          "Express Grill Inc",
+          "Express Grill Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Express Grill Inc"
+      },
+      {
+        "from": [
+          "Kanela Breakfast Club",
+          "Kanela 'breakfast Club'"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kanela Breakfast Club"
+      },
+      {
+        "from": [
+          "Bridget Mcneill's",
+          "Bridget Mcneills"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bridget Mcneill's"
+      },
+      {
+        "from": [
+          "Natalino's",
+          "Natalinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Natalino's"
+      },
+      {
+        "from": [
+          "Cafe Society Inc",
+          "Cafe Society Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cafe Society Inc"
+      },
+      {
+        "from": [
+          "Ez Food Mart",
+          "E-z- Food Mart"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ez Food Mart"
+      },
+      {
+        "from": [
+          "White Castle System, Inc.",
+          "White Castle System Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "White Castle System, Inc."
+      },
+      {
+        "from": [
+          "Big & Littles Restaurant",
+          "Big & Little's Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Big & Littles Restaurant"
+      },
+      {
+        "from": [
+          "Nicks Pit Stop #2",
+          "Nick's Pit Stop #2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nicks Pit Stop #2"
+      },
+      {
+        "from": [
+          "Steve's 77 Ice Cream",
+          "Steves 77 Ice Cream"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Steve's 77 Ice Cream"
+      },
+      {
+        "from": [
+          "J. J. Gyros",
+          "J J Gyros"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "J. J. Gyros"
+      },
+      {
+        "from": [
+          "Cheesies Pub & Grub",
+          "Cheesie's Pub & Grub"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cheesies Pub & Grub"
+      },
+      {
+        "from": [
+          "Carlitos Way Pizza",
+          "Carlito's Way Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carlitos Way Pizza"
+      },
+      {
+        "from": [
+          "Chuckie's",
+          "Chuckies"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chuckie's"
+      },
+      {
+        "from": [
+          "Isla's Marias",
+          "Islas Marias"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Isla's Marias"
+      },
+      {
+        "from": [
+          "Mc Donald's",
+          "Mc Donalds"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mc Donald's"
+      },
+      {
+        "from": [
+          "Restaurant La Esperanza",
+          "La Esperanza Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Restaurant La Esperanza"
+      },
+      {
+        "from": [
+          "Munchies Food Mart, Inc",
+          "Munchies Food Mart, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Munchies Food Mart, Inc"
+      },
+      {
+        "from": [
+          "Mcdonald's Restaurant",
+          "Mcdonalds Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mcdonald's Restaurant"
+      },
+      {
+        "from": [
+          "Wendy's Old Fashioned Hamburgers",
+          "Wendys Old Fashioned Hamburgers"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wendy's Old Fashioned Hamburgers"
+      },
+      {
+        "from": [
+          "Elenis Cafe",
+          "Eleni's Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Elenis Cafe"
+      },
+      {
+        "from": [
+          "Cake Bros Bakery",
+          "Cake Bros. Bakery"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cake Bros Bakery"
+      },
+      {
+        "from": [
+          "Express Food And Liquor",
+          "Food And Liquor Express"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Express Food And Liquor"
+      },
+      {
+        "from": [
+          "Taqueria El Molino",
+          "El Molino Taqueria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Taqueria El Molino"
+      },
+      {
+        "from": [
+          "Brown's Chicken & Pasta",
+          "Browns Chicken & Pasta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brown's Chicken & Pasta"
+      },
+      {
+        "from": [
+          "Quiznos",
+          "Quizno's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Quiznos"
+      },
+      {
+        "from": [
+          "Cafe Salsa",
+          "Salsa Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cafe Salsa"
+      },
+      {
+        "from": [
+          "Dollar Store",
+          "Dollar Store +"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dollar Store"
+      },
+      {
+        "from": [
+          "Starbucks",
+          "Starbuck's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Starbucks"
+      },
+      {
+        "from": [
+          "L' Patron",
+          "L Patron"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "L' Patron"
+      },
+      {
+        "from": [
+          "Bojono's Pizzeria",
+          "Bojonos Pizzeria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bojono's Pizzeria"
+      },
+      {
+        "from": [
+          "Amish & Healthy Foods",
+          "Amish Healthy Foods"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Amish & Healthy Foods"
+      },
+      {
+        "from": [
+          "Racine Bakery Inc",
+          "Racine Bakery, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Racine Bakery Inc"
+      },
+      {
+        "from": [
+          "Los Pinos Supermercado",
+          "Supermercado Los Pinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Los Pinos Supermercado"
+      },
+      {
+        "from": [
+          "Triple A Services, Inc.",
+          "Triple A Services, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Triple A Services, Inc."
+      },
+      {
+        "from": [
+          "Nicks Gyro's Ii",
+          "Nick's Gyros Ii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nicks Gyro's Ii"
+      },
+      {
+        "from": [
+          "Jimmy John's",
+          "Jimmy Johns"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jimmy John's"
+      },
+      {
+        "from": [
+          "Marys Food And Grocery Store",
+          "Mary's Food And Grocery Store"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marys Food And Grocery Store"
+      },
+      {
+        "from": [
+          "Olivia's Sea Of Soul",
+          "Olivias Sea Of Soul"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Olivia's Sea Of Soul"
+      },
+      {
+        "from": [
+          "A & B Tobacco Inc.",
+          "A & B Tobacco, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A & B Tobacco Inc."
+      },
+      {
+        "from": [
+          "Muskies",
+          "Muskie's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Muskies"
+      },
+      {
+        "from": [
+          "Wendy's Properties Llc",
+          "Wendy's Properties, Llc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wendy's Properties Llc"
+      },
+      {
+        "from": [
+          "Peet's Coffee & Tea",
+          "Peets Coffee & Tea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peet's Coffee & Tea"
+      },
+      {
+        "from": [
+          "Dunkin Donuts",
+          "Dunkin' Donuts"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dunkin Donuts"
+      },
+      {
+        "from": [
+          "B Patel Inc",
+          "B Patel, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "B Patel Inc"
+      },
+      {
+        "from": [
+          "63rd Food Mart, Inc",
+          "63rd Food Mart, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "63rd Food Mart, Inc"
+      },
+      {
+        "from": [
+          "Giordano's Pizza",
+          "Giordanos Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Giordano's Pizza"
+      },
+      {
+        "from": [
+          "Dona Maris",
+          "Dona Mari's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dona Maris"
+      },
+      {
+        "from": [
+          "Rhubarb's",
+          "Rhubarbs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rhubarb's"
+      },
+      {
+        "from": [
+          "Edible Arrangements",
+          "Edible - Arrangements"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Edible Arrangements"
+      },
+      {
+        "from": [
+          "Grocery Alvarez",
+          "Alvarez Grocery"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grocery Alvarez"
+      },
+      {
+        "from": [
+          "Cater-biz Chicago",
+          "Caterbiz Chicago"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cater-biz Chicago"
+      },
+      {
+        "from": [
+          "Brown's Chicken",
+          "Browns Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brown's Chicken"
+      },
+      {
+        "from": [
+          "K &g Food Mart",
+          "K & G Food Mart"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "K &g Food Mart"
+      },
+      {
+        "from": [
+          "Buy -n- Save",
+          "Buy 'n Save"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Buy -n- Save"
+      },
+      {
+        "from": [
+          "Dunkin Donuts/baskin-robbins",
+          "Dunkin Donuts/baskinrobbins"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dunkin Donuts/baskin-robbins"
+      },
+      {
+        "from": [
+          "Taqueria San Juanito Inc.",
+          "Taqueria San Juanito, Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Taqueria San Juanito Inc."
+      },
+      {
+        "from": [
+          "Popeyes Fried Chicken",
+          "Popeye's Fried Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Popeyes Fried Chicken"
+      },
+      {
+        "from": [
+          "Employees Cafeteria",
+          "Employee's Cafeteria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Employees Cafeteria"
+      },
+      {
+        "from": [
+          "Adams Food Mart",
+          "Adam's Food Mart"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Adams Food Mart"
+      },
+      {
+        "from": [
+          "Celestial Kitchens Inc",
+          "Celestial Kitchens Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Celestial Kitchens Inc"
+      },
+      {
+        "from": [
+          "H & M Food Mart",
+          "M H Food Mart"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "H & M Food Mart"
+      },
+      {
+        "from": [
+          "A Piece Of Cake Bakery, Inc.",
+          "A Piece Of Cake Bakery Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A Piece Of Cake Bakery, Inc."
+      },
+      {
+        "from": [
+          "Cholies Pizzeria",
+          "Cholie's Pizzeria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cholies Pizzeria"
+      },
+      {
+        "from": [
+          "Gelatina's Cris",
+          "Gelatinas Cris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gelatina's Cris"
+      },
+      {
+        "from": [
+          "Copperfields Market",
+          "Copperfield's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Copperfields Market"
+      },
+      {
+        "from": [
+          "Al Noor Meat & Grocery",
+          "Al Noor Meat &grocery"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Al Noor Meat & Grocery"
+      },
+      {
+        "from": [
+          "Homan Square Caf'e",
+          "Homan Square Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Homan Square Caf'e"
+      },
+      {
+        "from": [
+          "Firehouse Captain Hooks",
+          "Firehouse / Captain Hooks"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Firehouse Captain Hooks"
+      },
+      {
+        "from": [
+          "Stans Donuts",
+          "Stan's Donuts"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Stans Donuts"
+      },
+      {
+        "from": [
+          "Rainforest Learning Center, Inc.",
+          "Rainforest Learning Center, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rainforest Learning Center, Inc."
+      },
+      {
+        "from": [
+          "Amigos Discount Store",
+          "Amigo's Discount Store"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Amigos Discount Store"
+      },
+      {
+        "from": [
+          "Chicago's Grill Fish, Chicken",
+          "Chicago's Grill Fish & Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chicago's Grill Fish, Chicken"
+      },
+      {
+        "from": [
+          "Lakeshore Sport &fitness",
+          "Lakeshore Sport & Fitness"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lakeshore Sport &fitness"
+      },
+      {
+        "from": [
+          "Walgreens",
+          "Walgreen's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Walgreens"
+      },
+      {
+        "from": [
+          "Artists Cafe",
+          "Artist's Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Artists Cafe"
+      },
+      {
+        "from": [
+          "Oberois Indian Food & Grocery Inc.",
+          "Oberois Indian Food & Grocery Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Oberois Indian Food & Grocery Inc."
+      },
+      {
+        "from": [
+          "Quiznos Subs",
+          "Quizno's Subs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Quiznos Subs"
+      },
+      {
+        "from": [
+          "Thunderbird Catering Co",
+          "Thunderbird Catering Co."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thunderbird Catering Co"
+      },
+      {
+        "from": [
+          "Little Caesars",
+          "Little Caesar's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Little Caesars"
+      },
+      {
+        "from": [
+          "Raymond's Tacos # 1",
+          "Raymonds Tacos #1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Raymond's Tacos # 1"
+      },
+      {
+        "from": [
+          "South East Asia Center",
+          "South - East Asia Center"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "South East Asia Center"
+      },
+      {
+        "from": [
+          "Kreative Kidz Learning Academy Inc.",
+          "Kreative Kidz Learning Academy Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kreative Kidz Learning Academy Inc."
+      },
+      {
+        "from": [
+          "Cantina #46",
+          "Cantina 46"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cantina #46"
+      },
+      {
+        "from": [
+          "Yummy Japanese And Chinese Cuisine",
+          "Yummy Chinese And Japanese Cuisine"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Yummy Japanese And Chinese Cuisine"
+      },
+      {
+        "from": [
+          "Summa Cum Laude Inc.",
+          "Summa Cum Laude Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Summa Cum Laude Inc."
+      },
+      {
+        "from": [
+          "El Milagro Taqueria",
+          "Taqueria El Milagro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "El Milagro Taqueria"
+      },
+      {
+        "from": [
+          "Ignite Network, Inc.",
+          "Ignite Network Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ignite Network, Inc."
+      },
+      {
+        "from": [
+          "Schubas Tavern/harmony Grill",
+          "Schuba's Tavern/harmony Grill"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Schubas Tavern/harmony Grill"
+      },
+      {
+        "from": [
+          "Jewel / Osco",
+          "Jewel Osco"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jewel / Osco"
+      },
+      {
+        "from": [
+          "Sweet Miss Giving's",
+          "Sweet Miss Givings"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sweet Miss Giving's"
+      },
+      {
+        "from": [
+          "Jersey Mike's",
+          "Jersey Mikes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jersey Mike's"
+      },
+      {
+        "from": [
+          "Euro Cafe'",
+          "Euro Cafe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Euro Cafe'"
+      },
+      {
+        "from": [
+          "Christopher House",
+          "Christopher House-"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Christopher House"
+      },
+      {
+        "from": [
+          "Amanda's Grocery & Fast Food",
+          "Amanda's Fast Food & Grocery"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Amanda's Grocery & Fast Food"
+      },
+      {
+        "from": [
+          "La Boulangerie",
+          "La- Boulangerie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "La Boulangerie"
+      },
+      {
+        "from": [
+          "King's Kiddie Kingdom",
+          "Kings Kiddie Kingdom"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "King's Kiddie Kingdom"
+      },
+      {
+        "from": [
+          "Mr. Browns Lounge",
+          "Mr. Brown's Lounge"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mr. Browns Lounge"
+      },
+      {
+        "from": [
+          "El Pozolito Restaurant",
+          "Restaurant El Pozolito"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "El Pozolito Restaurant"
+      },
+      {
+        "from": [
+          "Vinis Pizza",
+          "Vini's Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vinis Pizza"
+      },
+      {
+        "from": [
+          "Cafe Versace",
+          "Cafe Versace-"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cafe Versace"
+      },
+      {
+        "from": [
+          "75th & State Shell",
+          "75th State Shell"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "75th & State Shell"
+      },
+      {
+        "from": [
+          "Harold's Chicken # 71",
+          "Harold's Chicken #71"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Harold's Chicken # 71"
+      },
+      {
+        "from": [
+          "Chicago Kitchen",
+          "Kitchen Chicago"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chicago Kitchen"
+      },
+      {
+        "from": [
+          "Papa John's",
+          "Papa Johns"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Papa John's"
+      },
+      {
+        "from": [
+          "Cholies Pizza",
+          "Cholie's Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cholies Pizza"
+      },
+      {
+        "from": [
+          "Bake For Me",
+          "Bake For Me!"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bake For Me"
+      },
+      {
+        "from": [
+          "J & J Fish",
+          "J J Fish"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "J & J Fish"
+      },
+      {
+        "from": [
+          "Nick's Pit Stop",
+          "Nicks Pit Stop"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nick's Pit Stop"
+      },
+      {
+        "from": [
+          "Pacos Tacos",
+          "Paco's Tacos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pacos Tacos"
+      },
+      {
+        "from": [
+          "83rd & State Shell",
+          "83rd State Shell"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "83rd & State Shell"
+      },
+      {
+        "from": [
+          "Margies Candies",
+          "Margie's Candies"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Margies Candies"
+      },
+      {
+        "from": [
+          "Uncle Joe's",
+          "Uncle Joes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Uncle Joe's"
+      },
+      {
+        "from": [
+          "Mr. Submarine",
+          "Mr Submarine"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mr. Submarine"
+      },
+      {
+        "from": [
+          "L.D. Pho",
+          "Ld Pho"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "L.D. Pho"
+      },
+      {
+        "from": [
+          "Ada S Mckinley Highland Campus",
+          "Ada S. Mckinley Highland Campus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ada S Mckinley Highland Campus"
+      },
+      {
+        "from": [
+          "Real Good Juice Co.",
+          "Real Good Juice Co"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Real Good Juice Co."
+      },
+      {
+        "from": [
+          "Family Dollar, Inc.",
+          "Family Dollar Inc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Family Dollar, Inc."
+      },
+      {
+        "from": [
+          "Pizza Capri",
+          "Capri Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pizza Capri"
+      },
+      {
+        "from": [
+          "Carniceria Guanajuato",
+          "Guanajuato Carniceria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carniceria Guanajuato"
+      },
+      {
+        "from": [
+          "Chickies",
+          "Chickie's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chickies"
+      },
+      {
+        "from": [
+          "Dairy Queen Orange Julius",
+          "Dairy Queen/ Orange Julius"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dairy Queen Orange Julius"
+      },
+      {
+        "from": [
+          "Janson's Drive In",
+          "Janson;s Drive In"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Janson's Drive In"
+      },
+      {
+        "from": [
+          "Zee's Supermarket Plus",
+          "Zees Supermarket Plus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Zee's Supermarket Plus"
+      },
+      {
+        "from": [
+          "Dunkin Donuts / Baskin Robins",
+          "Dunkin Donuts & Baskin Robins"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dunkin Donuts / Baskin Robins"
+      },
+      {
+        "from": [
+          "Chicago Cheese Steak Co",
+          "Chicago Cheese Steak Co."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chicago Cheese Steak Co"
+      },
+      {
+        "from": [
+          "Rocky's Tacos",
+          "Rockys Tacos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rocky's Tacos"
+      },
+      {
+        "from": [
+          "Millers Pub",
+          "Miller's Pub"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Millers Pub"
+      },
+      {
+        "from": [
+          "The Original Maxwell St.",
+          "The Original Maxwell St"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The Original Maxwell St."
+      },
+      {
+        "from": [
+          "Taqueria El Patron",
+          "El Patron Taqueria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Taqueria El Patron"
+      },
+      {
+        "from": [
+          "Tortorice's Pizza",
+          "Tortorices Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tortorice's Pizza"
+      },
+      {
+        "from": [
+          "M & N Food Mart",
+          "N & M Food Mart"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "M & N Food Mart"
+      },
+      {
+        "from": [
+          "Sodexo America, Llc",
+          "Sodexo America, Llc."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sodexo America, Llc"
+      },
+      {
+        "from": [
+          "Dollop Coffee Co",
+          "Dollop Coffee Co."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dollop Coffee Co"
+      },
+      {
+        "from": [
+          "Niko's Produce",
+          "Nikos Produce"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Niko's Produce"
+      },
+      {
+        "from": [
+          "See Thru Chinese Kitchen",
+          "Chinese See Thru Kitchen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "See Thru Chinese Kitchen"
+      },
+      {
+        "from": [
+          "Leonas",
+          "Leona's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Leonas"
+      },
+      {
+        "from": [
+          "La Panaderia Central Bakery",
+          "Panaderia La Central Bakery"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "La Panaderia Central Bakery"
+      },
+      {
+        "from": [
+          "Jj Peppers Food Store",
+          "J.J. Peppers Food Store"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jj Peppers Food Store"
+      },
+      {
+        "from": [
+          "Dukes",
+          "Duke's"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dukes"
+      },
+      {
+        "from": [
+          "Fisherman's Island",
+          "Fishermans Island"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fisherman's Island"
+      },
+      {
+        "from": [
+          "Starbucks Coffee # 2624",
+          "Starbucks Coffee #2624"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Starbucks Coffee # 2624"
+      },
+      {
+        "from": [
+          "Rosati's Pizza",
+          "Rosatis Pizza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rosati's Pizza"
+      },
+      {
+        "from": [
+          "Dippin Dots",
+          "Dippin' Dots"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dippin Dots"
+      },
+      {
+        "from": [
+          "Vida Y Salud",
+          "Salud Y Vida"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vida Y Salud"
+      },
+      {
+        "from": [
+          "Miska's",
+          "Miskas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Miska's"
+      },
+      {
+        "from": [
+          "Popeyes Famous Fried Chicken",
+          "Popeye's Famous Fried Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Popeyes Famous Fried Chicken"
+      },
+      {
+        "from": [
+          "Brown Bag Seafood Co",
+          "Brown Bag Seafood Co."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brown Bag Seafood Co"
+      },
+      {
+        "from": [
+          "Golden Fish & Chicken",
+          "Golden Fish + Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Golden Fish & Chicken"
+      },
+      {
+        "from": [
+          "Sushi",
+          "Sushi +"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sushi"
+      },
+      {
+        "from": [
+          "Children's Learning Place",
+          "Childrens Learning Place"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Children's Learning Place"
+      },
+      {
+        "from": [
+          "Jj Fish & Chicken",
+          "J&j Fish & Chicken"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jj Fish & Chicken"
+      },
+      {
+        "from": [
+          "Jimmy Johns Sandwich Shop",
+          "Jimmy John's Sandwich Shop"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jimmy Johns Sandwich Shop"
+      },
+      {
+        "from": [
+          "Sunny East Village Day Care & Preschool, Inc.",
+          "Sunny East Village Day Care & Preschool, Inc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sunny East Village Day Care & Preschool, Inc."
+      }
+    ],
+    "description": "Mass edit cells in column AKA Name_Cleancluster"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Facility Type_Clean",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Facility Type_Cleancluster",
+    "columnInsertIndex": 10,
+    "description": "Create column Facility Type_Cleancluster at index 10 based on column Facility Type_Clean using expression grel:value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Facility Type_Cleancluster",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grocery & Restaurant",
+          "Grocery& Restaurant",
+          "Grocery/ Restaurant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grocery & Restaurant"
+      },
+      {
+        "from": [
+          "Convenience Store",
+          "(convenience Store)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Convenience Store"
+      },
+      {
+        "from": [
+          "Children's Services Facility",
+          "Childrens Services Facility"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Children's Services Facility"
+      },
+      {
+        "from": [
+          "Tavern-liquor",
+          "Tavern/liquor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tavern-liquor"
+      },
+      {
+        "from": [
+          "Gas Station",
+          "(gas Station)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Gas Station"
+      },
+      {
+        "from": [
+          "Grocery Store / Gas Station",
+          "Gas Station/ Grocery Store"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grocery Store / Gas Station"
+      },
+      {
+        "from": [
+          "Kids Cafe",
+          "Kids Cafe'"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kids Cafe"
+      }
+    ],
+    "description": "Mass edit cells in column Facility Type_Cleancluster"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Inspection Type",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Inspection Type_Clean",
+    "columnInsertIndex": 20,
+    "description": "Create column Inspection Type_Clean at index 20 based on column Inspection Type using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Inspection Type_Clean",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Inspection Type_Clean using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Inspection Type_Clean",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Inspection Type_Cleancluster",
+    "columnInsertIndex": 21,
+    "description": "Create column Inspection Type_Cleancluster at index 21 based on column Inspection Type_Clean using expression grel:value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Inspection Type_Cleancluster",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kids Cafe",
+          "Kids Cafe'"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kids Cafe"
+      }
+    ],
+    "description": "Mass edit cells in column Inspection Type_Cleancluster"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Inspection Date",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Inspection Date_Clean",
+    "columnInsertIndex": 19,
+    "description": "Create column Inspection Date_Clean at index 19 based on column Inspection Date using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Inspection Date_Clean",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Inspection Date_Clean using expression value.toDate()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Inspection Date_Clean",
+    "expression": "grel:toString(toDate(value),\"yyyy-MM-dd\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Inspection Date_Clean using expression grel:toString(toDate(value),\"yyyy-MM-dd\")"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Location",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Location_Clean",
+    "columnInsertIndex": 28,
+    "description": "Create column Location_Clean at index 28 based on column Location using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Location_Clean",
+    "expression": "grel:value.substring(1, length(trim(value))-1)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Location_Clean using expression grel:value.substring(1, length(trim(value))-1)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "City_Clean",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "City_Cleancluster",
+    "columnInsertIndex": 16,
+    "description": "Create column City_Cleancluster at index 16 based on column City_Clean using expression grel:value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City_Cleancluster",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CHICAGO",
+          "CCHICAGO",
+          "CHCHICAGO",
+          "CHCICAGO",
+          "CHICAGOI",
+          "312CHICAGO"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CHICAGO"
+      },
+      {
+        "from": [
+          "BRIDEVIEW",
+          "BROADVIEW"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BROADVIEW"
+      },
+      {
+        "from": [
+          "OLYMPIA FIELDS",
+          "OOLYMPIA FIELDS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OLYMPIA FIELDS"
+      }
+    ],
+    "description": "Mass edit cells in column City_Cleancluster"
+  }
+]

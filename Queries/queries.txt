@@ -1,0 +1,33 @@
+SELECT DISTINCT(dba_name) from food_inspections WHERE dba_name LIKE "QUIZNOS%" ORDER BY dba_name;
+
+SELECT DISTINCT(dba_name_cleancluster) from food_inspections WHERE dba_name_cleancluster LIKE "Quiznos%" ORDER BY dba_name_cleancluster;
+
+SELECT DISTINCT(aka_name) from food_inspections WHERE aka_name LIKE "Sharks Fish%" ORDER BY aka_name;
+
+SELECT DISTINCT(aka_name_cleancluster) from food_inspections WHERE aka_name_cleancluster LIKE "Sharks Fish%" ORDER BY aka_name_cleancluster;
+
+SELECT DISTINCT(facility_type) from food_inspections where facility_type LIKE 'Grocery& Restaurant%'  ORDER BY facility_type;
+
+SELECT DISTINCT(facility_type_cleancluster) from food_inspections where facility_type_cleancluster LIKE 'Grocery& Restaurant%'  ORDER BY facility_type_cleancluster;
+
+SELECT DISTINCT(inspection_date) from food_inspections ORDER BY inspection_date;
+
+SELECT DISTINCT(inspection_date_clean) from food_inspections ORDER BY inspection_date_clean;
+
+SELECT DISTINCT(inspection_type) from food_inspections WHERE inspection_type LIKE "Kids%" ORDER BY inspection_type;
+
+SELECT DISTINCT(inspection_type_cleancluster) from food_inspections WHERE inspection_type_cleancluster LIKE "Kids%" ORDER BY inspection_type_cleancluster;
+
+SELECT DISTINCT(inspection_type_cleancluster) from food_inspections ORDER BY inspection_type_cleancluster;
+
+SELECT DISTINCT(location) from food_inspections ORDER BY location;
+
+SELECT DISTINCT(location_clean) from food_inspections ORDER BY location_clean;
+
+SELECT violations_numbers from food_inspections;
+
+SELECT DISTINCT(city) from food_inspections where city LIKE 'CHIC%' ORDER BY city;
+
+SELECT DISTINCT(city_cleancluster) from food_inspections where city_cleancluster LIKE 'CHIC%' ORDER BY city_cleancluster;
+
+
